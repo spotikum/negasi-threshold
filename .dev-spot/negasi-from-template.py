@@ -1,6 +1,6 @@
 from PIL import Image
 import matplotlib.pyplot as plt
-img=Image.open("image.jpeg")
+img=Image.open(".dev-spot/image.jpeg")
 
 w,h=img.size
 for i in range(w):
