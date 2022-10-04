@@ -1,0 +1,5 @@
+Tugas 2
+
+- Baca citranya (hasilkan nilai keabuan) tampilkan dengan format Xn1, Yn1= N
+- Operasi Negasi citra Ko = Kmax - Ki
+- Hasilkan citra baru dengan hasil negasi tanpa menggunakan fungsi di phyton
