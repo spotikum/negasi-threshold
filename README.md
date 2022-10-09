@@ -25,4 +25,4 @@ python negasi.py
 
 ---
 
-- `output dari program ada file output.png`
+- `output dari program adalah file output.png`
