@@ -1,16 +1,14 @@
-# We need cv2 module for image 
-# reading and matplotlib module
-# for plotting
-import cv2
+from PIL import Image
 import matplotlib.pyplot as plt
-   
-img_bgr = cv2.imread('image.jpeg', 1)
-   
-color = ('b', 'g', 'r')
-  
-for i, col in enumerate(color):
-    histr = cv2.calcHist([img_bgr], [i], None, [256], [0, 256])
-    plt.plot(histr, color = col)
-    plt.xlim([0, 256])
-      
-plt.show()
+img=Image.open("image.jpeg")
+ 
+w,h=img.size
+for i in range(w):
+    for j in range(h):
+        r,g,b=img.getpixel((i,j))
+        r=255-r
+        g=255-g
+        b=255-b
+        img.putpixel((i,j),(r,g,b))
+plt.axis('off')
+plt.imshow(img) 
