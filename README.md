@@ -1,4 +1,4 @@
-# run code (Linux)
+# run code (linux)
 ### setup
 
 create venv
