@@ -1,0 +1,28 @@
+# run code (Linux)
+### setup
+
+create venv
+```
+python -m venv
+```
+
+install requirements
+```
+pip install -r requirements.txt
+```
+
+### run
+
+use venv
+```
+source venv/bin/activate
+```
+
+run
+```
+python negasi.py
+```
+
+---
+
+- `output dari program ada file output.png`
