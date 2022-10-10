@@ -1,6 +1,6 @@
 import matplotlib.image as img
 from PIL import Image
-import matplotlib.image as img
+
 img = Image.open("image.jpg")
 
 horizontal = img.size[0]-1
@@ -25,9 +25,7 @@ for x in range(0, img.size[0]-1):
           print(pixelColorVals)
 
           redPixel    = 255 - pixelColorVals[0]; 
-
           greenPixel  = 255 - pixelColorVals[1]; 
-
           bluePixel   = 255 - pixelColorVals[2]; 
 
           print("Nilai Red = ", redPixel)
